@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Develop Me</title>
+
+    <!-- Add site description -->
+    <meta name="description" content="#" />
+
+    <!-- ↓Image on tab↓ -->
+    <link rel="shortcut icon" type="image/x-icon" href="#" />
+
+    <!-- ↓Bootstrap↓ -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/user_profile.css" />
+  </head>
+  <body>
+    <aside id="edit_profile">
+      <button class="btn btn-outline-secondary">
+        <i class="fa fa-pencil"></i>
+      </button>
+    </aside>
+
+    <main id="user_details" class="container">
+      <div class="row">
+        <div id="user_profile_pic" class="col-md-12">
+          <img src="default_profile.jpg" alt="Your profile picture" />
+        </div>
+      </div>
+      <hr />
+      <div id="user_info_container">
+        <div class="row">
+          <p class="col-sm-3"><b>User:</b></p>
+          <p class="col-sm-9">Netsu</p>
+        </div>
+
+        <div class="row">
+          <p class="col-sm-3"><b>Skills:</b></p>
+          <p class="col-sm-9">
+            HTML, CSS, JavaScript, C++, PHP, HTML, CSS, JavaScript, C++, PHP,
+            HTML, CSS, JavaScript, C++, PHP, HTML, CSS, JavaScript, C++, PHP,
+            HTML, CSS, JavaScript, C++, PHP, HTML, CSS, JavaScript, C++, PHP,
+            HTML, CSS, JavaScript, C++, PHP
+          </p>
+        </div>
+
+        <div class="row">
+          <p class="col-sm-3"><b>Points:</b></p>
+          <p class="col-sm-9">200</p>
+        </div>
+
+        <div class="row">
+          <p class="col-sm-3"><b>Develop Me Age:</b></p>
+          <p class="col-sm-9">12 days</p>
+        </div>
+
+        <div class="row">
+          <p class="col-sm-3"><b>Description:</b></p>
+          <p class="col-sm-9">
+            I am the coolest user on this website, especially since I was the
+            first user and basically the owner ands stuff, this description is
+            incredibly long so I can test it when editing the website and stuffs
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <section id="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <!-- <a class="navbar-brand" href="#"><img src="src/sectionimg.png"></a> -->
+
+        <!-- When in mobile mode, the Nav bar wil decrease into an small square -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <!-- ml-auto = aligns all the nav options to the right -->
+            <li class="nav-item dropdown dropup">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <img
+                  src="default_profile.jpg"
+                  alt="Profile Pic"
+                  id="profile_pic"
+                />
+              </a>
+
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdown"
+                id="animate-dropdown"
+              >
+                <a class="dropdown-item" href="profile.html">My Profile</a>
+                <a class="dropdown-item" href="#">Settings</a>
+                <a class="dropdown-item" href="#">Log out</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Forum</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+  </body>
+</html>

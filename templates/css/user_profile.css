@@ -1,0 +1,66 @@
+html,
+body {
+  background-color: #949ba0;
+  height: 100%;
+}
+
+#edit_profile {
+  position: absolute;
+  right: 10%;
+  top: 5%;
+  z-index: 1;
+}
+
+#user_details {
+  overflow: hidden;
+}
+#user_details #user_profile_pic {
+  text-align: center;
+  margin-top: 1rem;
+}
+#user_details #user_profile_pic img {
+  height: 10rem;
+  border-radius: 50%;
+}
+#user_details #user_info_container {
+  background-color: #fff5;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+#forum_questions .forum_link {
+  background-color: #ccc;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+#forum_questions .forum_link:hover {
+  box-shadow: 1px 1px 10px #222;
+}
+#forum_questions .forum_link .forum_link_header a {
+  text-decoration: none;
+}
+#forum_questions .forum_link .forum_link_header a:hover {
+  color: #00acf0;
+}
+#forum_questions .forum_link .extra_options {
+  font-size: 1.2rem;
+}
+#forum_questions .forum_link .extra_options .action_buttons {
+  cursor: pointer;
+  background: none;
+  border: none;
+  margin-left: 1rem;
+  transition: 200ms;
+}
+#forum_questions .forum_link .extra_options .action_buttons:hover {
+  color: #e3170a;
+}
+
+@media (max-width: 200px) {
+  #user_details #user_profile_pic img {
+    height: 6rem;
+  }
+}
+
+/*# sourceMappingURL=user_profile.css.map */

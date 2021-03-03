@@ -1,0 +1,42 @@
+#nav-bar {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+}
+#nav-bar .navbar {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-top-left-radius: 10px;
+  /*.navbar-brand{
+      img{
+          height: 40px;
+          padding-left: 30px;
+      }
+
+      li{
+          padding: 0 10px;
+
+          a{
+              float: right;
+              text-align: left;
+          }
+      }
+  }*/
+}
+#nav-bar .navbar .navbar-toggler {
+  border: none;
+}
+#nav-bar .navbar .nav-link {
+  color: #555;
+  font-weight: 600;
+  font-size: 1em;
+}
+#nav-bar .navbar .nav-link:hover {
+  color: #007bff;
+}
+#nav-bar .navbar #profile_pic {
+  width: 1.4rem;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=navigation.css.map */
