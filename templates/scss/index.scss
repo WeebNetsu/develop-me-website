@@ -1,15 +1,30 @@
 @import "./defaults.scss";
 
 #search {
-  //   height: 80%;
   width: 25%;
   position: fixed;
   right: 2%;
   top: 5%;
 }
 
+#add_post {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+}
+
+header {
+  width: 75%;
+  font-family: "Times New Roman", Times, serif;
+  color: #1a3e86;
+
+  h1 {
+    text-align: center;
+    font-size: 5rem;
+  }
+}
+
 #user_account_preview {
-  // border: 1px solid black;
   height: 80%;
   width: 25%;
   position: fixed;
@@ -29,7 +44,6 @@
   }
 
   #user_info_container {
-    // background-image: linear-gradient(135deg, #fff5 0%, #fff0 70%);
     background-color: #fff5;
     border-radius: 5px;
     padding: 1rem;
@@ -84,5 +98,17 @@
 
   #user_account_preview {
     display: none;
+  }
+
+  header {
+    width: 100%;
+  }
+}
+
+@media (max-width: 530px) {
+  header {
+    h1 {
+      font-size: 3rem;
+    }
   }
 }

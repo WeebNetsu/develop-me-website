@@ -11,6 +11,22 @@ body {
   top: 5%;
 }
 
+#add_post {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+}
+
+header {
+  width: 75%;
+  font-family: "Times New Roman", Times, serif;
+  color: #1a3e86;
+}
+header h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+
 #user_account_preview {
   height: 80%;
   width: 25%;
@@ -71,6 +87,15 @@ body {
 
   #user_account_preview {
     display: none;
+  }
+
+  header {
+    width: 100%;
+  }
+}
+@media (max-width: 530px) {
+  header h1 {
+    font-size: 3rem;
   }
 }
 
